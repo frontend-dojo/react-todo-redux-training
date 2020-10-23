@@ -1,2 +1,2 @@
-# react-todo-redux-complete
+# react-todo-redux-training
 Created with CodeSandbox
