@@ -6,11 +6,7 @@ export type Todo = { id: string; content: string };
 
 const todoListSlice = createSlice({
   name: "todoList",
-  initialState: {
-    todoList: []
-  } as {
-    todoList: Todo[];
-  },
+  initialState: [] as Todo[],
   reducers: {
     // TODO 必要なアクションを書く
   }
@@ -26,7 +22,5 @@ const store = createStore(reducer);
 
 export default store;
 export type RootState = {
-  todoList: {
-    todoList: Todo[];
-  };
+  todoList: Todo[];
 };
